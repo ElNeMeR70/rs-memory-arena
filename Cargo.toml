@@ -1,0 +1,13 @@
+[package]
+name = "rs-memory-arena"
+version = "1.0.0"
+edition = "2021"
+description = "Region-based memory arena allocator with bump pointer"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-memory-arena"
+keywords = ["rust", "allocator", "memory", "systems", "arena"]
+
+[[bin]]
+name = "rs_memory_arena"
+path = "main.rs"
